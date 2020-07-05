@@ -33,7 +33,7 @@ class QuantityChoice extends AbstractHelper
 
         $html .= '<select id="sb-quantity" style="min-width: 64px;">';
 
-        for ($i = 1; $i <= $quantityAvailable; $i++) {
+        for ($i = 2; $i <= $quantityAvailable; $i++) {
             $html .= sprintf('<option value="%1$s">%1$s</option>', $i);
         }
 
